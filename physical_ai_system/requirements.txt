@@ -1,0 +1,9 @@
+numpy>=1.24
+opencv-python>=4.8
+pytest>=7.0            # tests
+
+# Only for real hardware / optional features:
+# pyserial>=3.5        # Arduino arm (python main.py --hardware)
+# SpeechRecognition    # voice commands (--voice)
+# pyaudio              # microphone access for --voice
+# anthropic            # optional LLM parser (--llm)
